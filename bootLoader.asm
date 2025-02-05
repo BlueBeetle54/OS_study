@@ -3,7 +3,7 @@
 
 jmp 0x07c0:start    ; bootloader loading address by bios
 
-TOTALSECTORCOUNT: dw 1024   ;maximum sector of OS
+TOTALSECTORCOUNT: dw 1   ;maximum sector of OS
 
 start:
     mov ax, 0x7C0
